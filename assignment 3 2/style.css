@@ -1,0 +1,106 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: "Arial", sans-serif;
+    background-color: white;
+    color: white;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Poster Container */
+.poster {
+    background: black;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Title */
+.title {
+    font-family: 'Impact', 'Helvetica Neue', sans-serif;
+    font-size: 170px;
+    font-weight: bold;
+    line-height: 1;
+    margin: 0;
+    letter-spacing: 10px;
+}
+
+/* Main Image Styling */
+.main-image img {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+/* Characters Container */
+.characters {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+/* charcater block styling */
+.character {
+    width: 30%;
+    text-align: center;
+}
+
+.character img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.character-name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.actor-name {
+    font-size: 16px;
+}
+/* actor name link styling */
+.actor-name a {
+    color: white;
+    text-decoration: none;
+}
+
+.actor-name a:hover {
+    text-decoration: underline;
+    color: lightgray;
+}
+
+/* Footer Styling */
+.footer {
+    margin-top: 20px;
+}
+
+.footer p {
+    margin-bottom: 10px;
+    word-spacing: max(30px, 30px);
+}
+/* no spacing for the copyright in footer */
+.footer .no-word-spacing {
+    word-spacing: normal;
+}
+/* footer link styling */
+.footer a {
+    color: blue;
+    text-decoration: none;
+    word-spacing: normal;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
